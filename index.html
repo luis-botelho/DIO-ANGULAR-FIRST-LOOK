@@ -12,21 +12,23 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card-left">
-                <span class="autor">by Luis Botelho</span>
-                <a href="#">Darth Vader Contrata</a>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes.</p>
-                
-            </div>
-            <div class="card-right">
-                <img src="assets/img/asset-vader.png" alt="Jhon Trashman">
-            </div>
-        </div>
-    </div>
-    <custom-title title="caralho mané"></custom-title>
-    <card-news></card-news>
-</body>
+    <div class="app-root">
 
-</html>
+        <card-news 
+            autor="Felipe"
+            title="Darth Vader Contrata"
+            link-url="www.google.com"
+            photo="assets/img/asset-vader.png"
+            contet="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        >
+        </card-news>
+
+        <card-news 
+            title="Yoda convence replubica a utilizar components"
+            link-url="www.google.com/yoda"
+            photo="assets/img/asset-yoda.png"
+            contet="Yoda se pronuncia e choca a republica."
+        ></card-news>
+
+
+</body>
