@@ -19,6 +19,6 @@ class customTitle extends HTMLElement {
     `;  
     //send the style
     shadow.appendChild(style);
-  }
+  } 
 }
 customElements.define("custom-title", customTitle);
